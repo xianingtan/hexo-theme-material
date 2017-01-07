@@ -7,6 +7,19 @@
 	<% } %>
     <div class="locate-thumbnail-symbol"></div>
     
+    <% if(hasposttop(page.posts)==true) { %>
+    <% getposttop(page.posts).each(function(toppost){ %> 
+    	<% if(theme.scheme == "Paradox"){ %>
+			<!-- Paradox Thumbnail -->
+        	<%- partial('_partial/Paradox-post_entry_top', { post: toppost, index: true }) %>
+		<% } %>
+		<% if(theme.scheme == "Isolation"){ %>
+			<!-- Isolation Thumbnail -->
+        	<%- partial('_partial/Isolation-post_entry_top', { post: toppost, index: true }) %>
+		<% } %>
+    <% }); %>
+    <% } %>
+
     <% page.posts.each(function(post) { %>
 		<% if(theme.scheme == "Paradox"){ %>
 			<!-- Paradox Thumbnail -->
