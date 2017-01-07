@@ -121,6 +121,9 @@ pages:
 # Qrcode for redirect at other device
 qrcode: false
 
+# Pin posts on the top of the post list
+pin_post: true
+
 # ---------------------------------------------------------------
 # Integrated Services
 # ---------------------------------------------------------------
