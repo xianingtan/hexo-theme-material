@@ -26,7 +26,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "大喵的新窝"
+    slogan: "这只喵很懒，什么都没留下"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -59,7 +59,7 @@ thumbnail:
 #         color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
-    purecolor: "#F5F5F5"
+    purecolor: "#EAEAEA"
     #bgimg: "/img/bg.png"
     bing:
         enable: false
@@ -84,7 +84,7 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email: youremail@email.com
+    email: snatic@163.com
     twitter: "https://twitter.com/twitter"
     facebook: "https://www.facebook.com/facebook"
     googleplus: "https://www.google.com/"
