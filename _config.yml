@@ -26,7 +26,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "大喵的新窝"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -112,7 +112,7 @@ dropdown:
         icon: email
 
 # Sidebar Categories Switch
-sidebar_categories: false
+sidebar_categories: true
 
 # Pages Menu
 pages:
@@ -129,9 +129,9 @@ qrcode: false
 # Available value:
 #     duoshuo | disqus
 comment:
-    use:
-    shortname:
-    duoshuo_thread_key: path
+    use: duoshuo
+    shortname: snatic
+    duoshuo_thread_key: 878cdc7fbbcf034fb06b5828b293be87
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems
