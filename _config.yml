@@ -11,9 +11,9 @@ head:
 
 # Jump Links Settings
 url:
-    rss:
+    rss: /atom.xml
     daily_pic: "#"
-    logo:
+    logo: "/about"
 
 
 # ---------------------------------------------------------------
@@ -69,7 +69,7 @@ background:
 img:
     logo: "/img/miao.png"
     avatar: "/img/miao.png"
-    daily_pic: "/img/daily_pic.png"
+    daily_pic: "/img/daily_pic.jpg"
     sidebar_header: "/img/sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
@@ -84,16 +84,16 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email: snatic@163.com
-    twitter: "https://twitter.com/twitter"
-    facebook: "https://www.facebook.com/facebook"
-    googleplus: "https://www.google.com/"
+    email: Hi! I'm snatic
+    twitter: 
+    facebook: 
+    googleplus: 
     weibo:
-    instagram:
+    instagram: "https://www.instagram.com/snaticx/"
     tumblr:
-    github:
+    github: "https://github.com/sNaticY"
     linkedin:
-    zhihu:
+    zhihu: "https://www.zhihu.com/people/liu-yan-44-87"
 
 # SNS Share Switch
 sns_share:
@@ -107,19 +107,23 @@ sns_share:
 
 # Sidebar User Dropdown
 dropdown:
-    Email Me:
-        link: "#"
-        icon: email
+    About Me:
+        link: "/about"
+        icon: account_box
 
 # Sidebar Categories Switch
 sidebar_categories: true
 
 # Pages Menu
 pages:
-    #about: "/about"
+    标签云: "/tags"
+    关于我: "/about"
+    友情链接: "/links"
+    
+
 
 # Qrcode for redirect at other device
-qrcode: false
+qrcode: true
 
 # ---------------------------------------------------------------
 # Integrated Services
@@ -138,7 +142,7 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key:
 
 # Leancloud Views
