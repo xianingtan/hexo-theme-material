@@ -116,9 +116,15 @@ sidebar_categories: true
 
 # Pages Menu
 pages:
-    标签云: "/tags"
-    关于我: "/about"
-    友情链接: "/links"
+    标签云: 
+        link: "/tags"
+        icon: label_outline
+    关于我: 
+        link: "/about"
+        icon: account_circle
+    友情链接: 
+        link: "/links"
+        icon: touch_app
     
 
 
