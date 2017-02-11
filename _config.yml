@@ -130,7 +130,7 @@ qrcode: true
 # ---------------------------------------------------------------
 
 # Comment Systems
-# Available value:
+# Available value of "use":
 #     duoshuo | disqus
 comment:
     use: duoshuo
