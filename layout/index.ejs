@@ -7,43 +7,15 @@
 	<% } %>
     <div class="locate-thumbnail-symbol"></div>
     
-    <% if(theme.pin_post == true) { %>
-    <% if(hasposttop(page.posts)==true) { %>
-    <% getposttop(page.posts).each(function(toppost){ %> 
-    	<% if(theme.scheme == "Paradox"){ %>
+    <% page.posts.each(function(post) { %>
+		<% if(theme.scheme == "Paradox"){ %>
 			<!-- Paradox Thumbnail -->
-        	<%- partial('_partial/Paradox-post_entry_top', { post: toppost, index: true }) %>
+        	<%- partial('_partial/Paradox-post_entry', { post: post, index: true }) %>
 		<% } %>
 		<% if(theme.scheme == "Isolation"){ %>
 			<!-- Isolation Thumbnail -->
-        	<%- partial('_partial/Isolation-post_entry_top', { post: toppost, index: true }) %>
+        	<%- partial('_partial/Isolation-post_entry', { post: post, index: true }) %>
 		<% } %>
-    <% }); %>
-    <% } %>
-    <% } %>
-
-    <% page.posts.each(function(post) { %>
-        <% if(theme.pin_post == true) { %>
-            <% if(post.top != true) { %>
-		        <% if(theme.scheme == "Paradox"){ %>
-			        <!-- Paradox Thumbnail -->
-        	        <%- partial('_partial/Paradox-post_entry', { post: post, index: true }) %>
-		        <% } %>
-		        <% if(theme.scheme == "Isolation"){ %>
-			        <!-- Isolation Thumbnail -->
-        	        <%- partial('_partial/Isolation-post_entry', { post: post, index: true }) %>
-	        	<% } %>
-            <% } %>
-        <% } else { %>
-            <% if(theme.scheme == "Paradox"){ %>
-                    <!-- Paradox Thumbnail -->
-                    <%- partial('_partial/Paradox-post_entry', { post: post, index: true }) %>
-                <% } %>
-                <% if(theme.scheme == "Isolation"){ %>
-                    <!-- Isolation Thumbnail -->
-                    <%- partial('_partial/Isolation-post_entry', { post: post, index: true }) %>
-            <% } %>
-        <% } $>
     <% });
     
     if (page.total > 1) { %>
